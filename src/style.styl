@@ -46,6 +46,28 @@ header
     background-color color-primary-0
     background-image url(line-bg.png)
 
+    flex-center()
+    disable-user-select()
+
+    .logo
+        text-align center
+        font-family 'Playfair'
+        font-size 2em
+        color color-primary-1
+
+    .tagline
+        text-align center
+        color color-complement-1
+        font-family 'Kurale'
+        text-transform lowercase
+
+    hr
+        width 5em
+        height 2px
+        border none
+        background-color color-complement-2
+        margin 3ex auto
+
 main
     background-color color-complement-4
     position absolute
@@ -57,29 +79,14 @@ main
     flex-center()
 
     article
-        flex-center()
-        disable-user-select()
 
-        .logo
-            text-align center
-            color rgba(0,0,0,0)
-            background-image url(logo-medium.png)
-            width 260px
-            height 130px
+        font-family 'Oranienbaum'
 
-        .tagline
-            text-align center
-            color color-complement-1
-            width 70vw
-            font-family 'Kurale'
-            text-transform lowercase
+        dt
+            color color-primary-0
 
-        hr
-            width 5em
-            height 2px
-            border none
-            background-color color-complement-2
-            margin 3ex auto
+        dd
+            color color-secondary-1-0
 
 footer
     position absolute
