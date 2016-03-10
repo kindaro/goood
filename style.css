@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Oranienbaum|Playfair+Display+SC:400,400italic,700,700italic,900,900italic|EB+Garamond|Kurale&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic);
 html,
 body,
 div,
@@ -321,7 +321,7 @@ header {
   top: 0;
   height: 20vh;
   width: 100%;
-  background-color: #be4326;
+  background-color: #9998a1;
   background-image: url("line-bg.png");
   display: -ms-flex;
   -ms-flex-direction: column;
@@ -365,25 +365,28 @@ header {
 }
 header .logo {
   text-align: center;
-  font-family: 'Playfair';
+  font-family: 'Arvo';
+  font-weight: 700;
   font-size: 2em;
-  color: #ffa792;
+  color: #e0e0e0;
 }
 header .tagline {
   text-align: center;
-  color: #fff1ed;
-  font-family: 'Kurale';
+  color: #584f2b;
+  font-family: 'Arvo';
+  font-weight: 400;
+  font-style: italic;
   text-transform: lowercase;
 }
 header hr {
   width: 5em;
   height: 2px;
   border: none;
-  background-color: #ad9a95;
+  background-color: #484126;
   margin: 3ex auto;
 }
 main {
-  background-color: #1b0c09;
+  background-color: #403818;
   position: absolute;
   top: 20vh;
   height: 70vh;
@@ -420,19 +423,29 @@ main {
   align-items: center;
 }
 main article {
-  font-family: 'Oranienbaum';
+  font-family: 'Arvo';
+  line-height: 1.2;
 }
 main article dt {
-  color: #be4326;
+  color: #9998a1;
 }
 main article dd {
-  color: #1b6077;
+  padding: 1ex;
+  color: #8a86a0;
+  margin-bottom: 1ex;
+}
+main article li {
+  margin-left: 1ex;
+}
+main article li:before {
+  content: '>';
+  margin-right: 1ex;
 }
 footer {
   position: absolute;
   height: 10vh;
   top: 90vh;
   width: 100%;
-  background-color: #063a4c;
+  background-color: #34253b;
   background-image: url("line-bg.png");
 }
